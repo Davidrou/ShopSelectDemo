@@ -74,7 +74,7 @@ public class FlowLayout extends ViewGroup {
             }
         }
         setMeasuredDimension((modeWidth == MeasureSpec.EXACTLY) ? sizeWidth : width,
-                (modeHeight == MeasureSpec.EXACTLY)? sizeWidth : height);
+                (modeHeight == MeasureSpec.EXACTLY)? sizeHeight : height);
 
     }
 
